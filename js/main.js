@@ -254,6 +254,230 @@ document.addEventListener('DOMContentLoaded', function() {
     if (typeof google !== 'undefined' && document.getElementById('map')) {
         initMap();
     }
+    
+    // FAQ Accordion Functionality
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        if (question) {
+            question.addEventListener('click', function() {
+                // Close other FAQ items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                
+                // Toggle current item
+                item.classList.toggle('active');
+            });
+        }
+    });
+    
+    // Newsletter signup enhancement
+    const newsletterForms = document.querySelectorAll('.signup-form');
+    newsletterForms.forEach(form => {
+        const emailInput = form.querySelector('input[type="email"]');
+        
+        if (emailInput) {
+            emailInput.addEventListener('input', function() {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (this.value && emailRegex.test(this.value)) {
+                    this.classList.add('is-valid');
+                    this.classList.remove('is-invalid');
+                } else if (this.value) {
+                    this.classList.add('is-invalid');
+                    this.classList.remove('is-valid');
+                } else {
+                    this.classList.remove('is-valid', 'is-invalid');
+                }
+            });
+        }
+        
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const emailInput = this.querySelector('input[type="email"]');
+            const submitBtn = this.querySelector('button[type="submit"]');
+            
+            if (emailInput && emailInput.value) {
+                // Show loading state
+                const originalText = submitBtn.textContent;
+                submitBtn.textContent = 'Subscribing...';
+                submitBtn.disabled = true;
+                
+                // Simulate subscription (replace with actual API call)
+                setTimeout(() => {
+                    alert('Thank you for subscribing! Check your email for confirmation.');
+                    this.reset();
+                    submitBtn.textContent = originalText;
+                    submitBtn.disabled = false;
+                    emailInput.classList.remove('is-valid', 'is-invalid');
+                }, 1500);
+            }
+        });
+    });
+    
+    // Video testimonial placeholders
+    const videoPlaceholders = document.querySelectorAll('.video-placeholder');
+    videoPlaceholders.forEach(placeholder => {
+        const playButton = placeholder.querySelector('.play-button');
+        if (playButton) {
+            playButton.addEventListener('click', function() {
+                // Placeholder for video functionality
+                alert('Video testimonial would play here. Integration with video hosting service needed.');
+            });
+        }
+    });
+    
+    // Download button tracking
+    const downloadButtons = document.querySelectorAll('.download-btn');
+    downloadButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const downloadItem = this.closest('.download-item');
+            const title = downloadItem.querySelector('h4').textContent;
+            
+            // Track download (replace with actual analytics)
+            console.log(`Download initiated: ${title}`);
+            
+            // Simulate download
+            const originalText = this.textContent;
+            this.textContent = 'Downloading...';
+            this.disabled = true;
+            
+            setTimeout(() => {
+                this.textContent = 'Download Complete!';
+                setTimeout(() => {
+                    this.textContent = originalText;
+                    this.disabled = false;
+                }, 2000);
+            }, 1500);
+        });
+    });
+    
+    // Smooth scrolling for anchor links (legal pages)
+    const anchorLinks = document.querySelectorAll('a[href^="#"]');
+    anchorLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                e.preventDefault();
+                const headerHeight = document.querySelector('.main-header').offsetHeight;
+                const targetPosition = targetElement.offsetTop - headerHeight - 20;
+                
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+    
+    // Back to top button
+    const backToTopButton = document.createElement('button');
+    backToTopButton.innerHTML = '↑';
+    backToTopButton.className = 'back-to-top';
+    backToTopButton.setAttribute('aria-label', 'Back to top');
+    backToTopButton.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: var(--secondary-color);
+        color: white;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 1000;
+        box-shadow: var(--shadow-lg);
+    `;
+    
+    document.body.appendChild(backToTopButton);
+    
+    window.addEventListener('scroll', throttle(function() {
+        if (window.pageYOffset > 300) {
+            backToTopButton.style.opacity = '1';
+            backToTopButton.style.visibility = 'visible';
+        } else {
+            backToTopButton.style.opacity = '0';
+            backToTopButton.style.visibility = 'hidden';
+        }
+    }, 100));
+    
+    backToTopButton.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+    
+    // Performance optimization: Lazy loading for images
+    const lazyImages = document.querySelectorAll('img[data-src]');
+    if ('IntersectionObserver' in window && lazyImages.length > 0) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src;
+                    img.classList.remove('lazy');
+                    imageObserver.unobserve(img);
+                }
+            });
+        }, {
+            rootMargin: '50px 0px',
+            threshold: 0.01
+        });
+        
+        lazyImages.forEach(img => imageObserver.observe(img));
+    }
+    
+    // Form input enhancements
+    const formControls = document.querySelectorAll('.form-control');
+    formControls.forEach(input => {
+        // Add floating label effect
+        if (input.placeholder) {
+            const label = input.previousElementSibling;
+            if (label && label.tagName === 'LABEL') {
+                input.addEventListener('focus', function() {
+                    label.style.transform = 'translateY(-20px) scale(0.8)';
+                    label.style.color = 'var(--secondary-color)';
+                });
+                
+                input.addEventListener('blur', function() {
+                    if (!this.value) {
+                        label.style.transform = '';
+                        label.style.color = '';
+                    }
+                });
+                
+                // Initial state check
+                if (input.value) {
+                    label.style.transform = 'translateY(-20px) scale(0.8)';
+                }
+            }
+        }
+        
+        // Real-time validation feedback
+        input.addEventListener('input', function() {
+            if (this.hasAttribute('required') && this.value.trim()) {
+                this.classList.add('is-valid');
+                this.classList.remove('is-invalid');
+            } else if (this.hasAttribute('required') && !this.value.trim()) {
+                this.classList.remove('is-valid');
+                this.classList.add('is-invalid');
+            } else {
+                this.classList.remove('is-valid', 'is-invalid');
+            }
+        });
+    });
+    
 });
 
 // Google Maps Initialization
@@ -366,6 +590,58 @@ style.textContent = `
     
     form .error {
         border-color: #dc3545 !important;
+    }
+    
+    .back-to-top:hover {
+        background-color: var(--accent-color) !important;
+        transform: translateY(-2px);
+    }
+    
+    .faq-item.active .faq-answer {
+        max-height: 500px !important;
+    }
+    
+    .form-control.is-valid {
+        border-color: #28a745;
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%2328a745' d='m2.3 6.73.35-.35L4.18 4.2l1.53 2.18.35.35L6.4 6.4l-2.04-2.04L6.4 2.32l-.35-.35L4.52 3.5 2.98 1.32l-.35.35L4.17 3.8 2.13 5.84l-.35.35z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+        background-size: 16px;
+    }
+    
+    .form-control.is-invalid {
+        border-color: #dc3545;
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545'%3E%3Ccircle cx='6' cy='6' r='4.5'/%3E%3Cpath d='m5.8 4.6 1.4 1.4M6.2 7.4l1.4-1.4'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+        background-size: 16px;
+    }
+    
+    .video-placeholder:hover .play-button {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .download-item:hover .download-type {
+        background-color: var(--accent-color);
+    }
+    
+    @media (max-width: 768px) {
+        .back-to-top {
+            bottom: 15px !important;
+            right: 15px !important;
+            width: 45px !important;
+            height: 45px !important;
+            font-size: 18px !important;
+        }
+    }
+    
+    .lazy {
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    
+    .lazy.loaded {
+        opacity: 1;
     }
 `;
 document.head.appendChild(style);
