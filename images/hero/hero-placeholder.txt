@@ -1,0 +1,62 @@
+# Hero Images Directory
+
+High-resolution hero/banner images for page headers.
+
+## Page Hero Images Needed:
+
+### Homepage Hero
+- `homepage-hero.jpg` - Stunning mountain home exterior with landscape
+- Alternative: `homepage-hero-video.mp4` - Drone footage of luxury mountain home
+- Dimensions: 1920x1080 minimum for full-screen display
+
+### Service Page Heroes:
+- `custom-homes-hero.jpg` - Luxury custom home showcase
+- `mountain-homes-hero.jpg` - Mountain retreat with dramatic views  
+- `renovations-hero.jpg` - Before/after or renovation in progress
+- `design-build-hero.jpg` - Architectural plans with construction
+
+### About Page Heroes:
+- `our-story-hero.jpg` - Kevin Cler on construction site or completed project
+- `team-hero.jpg` - Team working together on luxury project
+- `process-hero.jpg` - Construction process or blueprints
+- `community-hero.jpg` - Local Cashiers area or community involvement
+
+### Other Page Heroes:
+- `portfolio-hero.jpg` - Stunning portfolio showcase home
+- `contact-hero.jpg` - Welcoming entrance or consultation setting
+- `testimonials-hero.jpg` - Happy clients in front of completed home
+- `resources-hero.jpg` - Mountain landscape or planning session
+
+## Hero Video Options:
+- `cashiers-luxury-homes.mp4` - Drone footage of completed projects
+- `construction-timelapse.mp4` - Building process timelapse
+- `mountain-lifestyle.mp4` - Mountain living showcase
+
+## Technical Requirements:
+- **Resolution**: 1920x1080 minimum (Full HD)
+- **Format**: JPEG for images, MP4 for videos
+- **Optimization**: Compressed for web loading speed
+- **Aspect Ratio**: 16:9 for video, flexible for images
+- **File Size**: Under 2MB for images, under 10MB for videos
+
+## Style Guidelines:
+- **Professional quality** - High-end photography/videography
+- **Brand consistent** - Luxury mountain aesthetic
+- **Text overlay friendly** - Clear areas for text placement
+- **Seasonal variety** - Mix of seasons to show year-round appeal
+- **Lighting** - Golden hour preferred for warm, inviting feel
+
+## Content Focus:
+1. **Luxury & Quality** - Showcase high-end finishes and craftsmanship
+2. **Mountain Setting** - Emphasize beautiful Western NC location
+3. **Lifestyle** - Show the dream of mountain living
+4. **Professional Team** - Highlight expertise and approachability
+5. **Process** - Demonstrate organization and attention to detail
+
+## Placeholder Usage:
+Currently using Unsplash.com images as placeholders:
+- All images are properly credited in IMAGE_CREDITS.md
+- Replace with original Deacon Construction photography
+- Maintain similar composition and quality level
+
+*Professional photography/videography recommendations available for hero content creation*

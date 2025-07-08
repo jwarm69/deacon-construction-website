@@ -1,0 +1,70 @@
+# Portfolio Project Images Directory
+
+This directory should contain high-quality photos for each completed project.
+
+## Project Structure:
+Each project needs 8-12 high-quality images:
+
+### Cedar Creek Estate
+- `cedar-creek-estate.jpg` - Main hero image
+- `cedar-creek-1.jpg` through `cedar-creek-8.jpg` - Gallery images
+- Focus: Exterior, great room, kitchen, master suite, outdoor living
+
+### Highlands Retreat  
+- `highlands-retreat.jpg` - Main hero image
+- `highlands-1.jpg` through `highlands-8.jpg` - Gallery images
+- Focus: Mountain views, rustic elegance, stone fireplace
+
+### Sapphire Valley Home
+- `sapphire-valley-home.jpg` - Main hero image  
+- `sapphire-1.jpg` through `sapphire-8.jpg` - Gallery images
+- Focus: Contemporary design, clean lines, integration with landscape
+
+### Glenville Estate
+- `glenville-estate.jpg` - Main hero image
+- `glenville-1.jpg` through `glenville-8.jpg` - Gallery images
+- Focus: Lake views, luxury finishes, outdoor entertaining
+
+### Whiteside Manor
+- `whiteside-manor.jpg` - Main hero image
+- `whiteside-1.jpg` through `whiteside-8.jpg` - Gallery images  
+- Focus: Grand scale, traditional mountain architecture
+
+### Historic Cashiers Renovation
+- `historic-renovation.jpg` - Main hero image
+- `historic-1.jpg` through `historic-8.jpg` - Gallery images
+- Focus: Before/after, preservation, modern updates
+
+### Modern Lake House
+- `modern-lake-house.jpg` - Main hero image
+- `lake-house-1.jpg` through `lake-house-8.jpg` - Gallery images
+- Focus: Contemporary lakefront, floor-to-ceiling windows
+
+### Fairfield Estate  
+- `fairfield-estate.jpg` - Main hero image
+- `fairfield-1.jpg` through `fairfield-8.jpg` - Gallery images
+- Focus: Mountain modern, outdoor living, luxury amenities
+
+### Mountain Lodge
+- `mountain-lodge.jpg` - Main hero image
+- `lodge-1.jpg` through `lodge-8.jpg` - Gallery images
+- Focus: Grand mountain lodge, timber framing, rustic luxury
+
+## Photography Guidelines:
+- **Resolution**: Minimum 2000px wide for hero images
+- **Format**: JPEG optimized for web
+- **Lighting**: Professional photography with proper lighting
+- **Composition**: Showcase craftsmanship and luxury details
+- **Consistency**: Similar style and quality across all projects
+
+## Image Categories per Project:
+1. **Exterior Hero** - Main showcase shot
+2. **Exterior Details** - Architecture, materials, landscaping  
+3. **Great Room/Living** - Main gathering spaces
+4. **Kitchen** - Luxury kitchen with details
+5. **Master Suite** - Primary bedroom and bath
+6. **Unique Features** - Special architectural elements
+7. **Outdoor Living** - Decks, patios, outdoor kitchens
+8. **Views** - Mountain/lake views from the home
+
+*Professional photographer recommendations available upon request*

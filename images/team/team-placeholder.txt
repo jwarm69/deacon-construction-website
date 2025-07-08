@@ -1,0 +1,62 @@
+# Team Photography Directory
+
+Professional headshots and team photos for the Deacon Construction team.
+
+## Leadership Team:
+
+### Kevin Cler - Founder & President
+- `kevin-cler.jpg` - Professional headshot (400x400px minimum)
+- `kevin-signature.png` - Signature for testimonials/quotes
+- Style: Professional, approachable, outdoor setting preferred
+
+## Core Team Members:
+
+### Sarah Mitchell - Senior Project Manager
+- `sarah-mitchell.jpg` - Professional headshot
+- Background: Construction site or office setting
+
+### Michael Torres - Lead Designer  
+- `michael-torres.jpg` - Professional headshot
+- Background: Design studio or architectural setting
+
+### James Robinson - Master Craftsman
+- `james-robinson.jpg` - Professional headshot  
+- Background: Workshop or construction setting
+
+### David Harrison - Senior Site Supervisor
+- `david-harrison.jpg` - Professional headshot
+- Background: Construction site with safety gear
+
+### Lisa Anderson - Interior Design Consultant
+- `lisa-anderson.jpg` - Professional headshot
+- Background: Design studio or luxury home interior
+
+### Jennifer Scott - Client Relations Manager
+- `jennifer-scott.jpg` - Professional headshot
+- Background: Office or client meeting setting
+
+## Team Group Photos:
+- `team-group.jpg` - Full team group photo
+- `construction-team.jpg` - Field team in action
+- `office-team.jpg` - Office team collaboration
+
+## Photography Specifications:
+- **Format**: High-resolution JPEG
+- **Size**: Minimum 400x400px for headshots
+- **Style**: Professional, consistent lighting and background
+- **Dress Code**: Business casual to professional
+- **Setting**: Mix of office, construction site, and studio settings
+
+## Recommended Shots per Person:
+1. **Primary Headshot** - Professional business portrait
+2. **Action Shot** - Person in their work environment  
+3. **Casual Professional** - Slightly more relaxed setting
+
+## Photography Notes:
+- Consistent lighting and style across all team members
+- Represent the luxury, professional brand image
+- Show expertise and approachability
+- Consider seasonal outdoor shots for mountain theme
+- Include safety gear for construction team members
+
+*Professional photographer recommendations and brand guidelines available*

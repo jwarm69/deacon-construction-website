@@ -1,0 +1,67 @@
+# Custom Icons & Graphics Directory
+
+SVG icons and graphics needed for the Deacon Construction website.
+
+## Service Icons:
+- `custom-home-icon.svg` - House with custom design elements
+- `mountain-home-icon.svg` - Mountain silhouette with home
+- `renovation-icon.svg` - Tools with home transformation
+- `design-build-icon.svg` - Blueprint with construction elements
+
+## Process Icons:
+- `consultation-icon.svg` - Handshake or meeting
+- `site-analysis-icon.svg` - Survey tools or terrain
+- `design-development-icon.svg` - Drafting tools or computer
+- `construction-docs-icon.svg` - Blueprints or documents
+- `permits-icon.svg` - Approved stamp or government building
+- `contract-icon.svg` - Document with signature
+- `foundation-icon.svg` - Concrete foundation or excavation
+- `systems-icon.svg` - Plumbing/electrical symbols
+- `finishes-icon.svg` - Paint brush and materials
+- `final-details-icon.svg` - Checklist or magnifying glass
+- `inspection-icon.svg` - Clipboard with checkmarks
+- `walkthrough-icon.svg` - Keys or completed home
+
+## Quality & Feature Icons:
+- `experience-icon.svg` - Calendar or timeline
+- `quality-icon.svg` - Shield with checkmark
+- `communication-icon.svg` - Speech bubbles or phone
+- `local-icon.svg` - Map pin or mountain outline
+- `warranty-icon.svg` - Shield or certificate
+- `personal-icon.svg` - Handshake or person
+
+## Specialty Craft Icons:
+- `stone-masonry.svg` - Stone wall or fireplace
+- `custom-millwork.svg` - Wood grain or saw
+- `timber-framing.svg` - Wooden beam structure
+- `roofing.svg` - Roof lines or shingles
+- `plumbing.svg` - Pipe or faucet
+- `electrical.svg` - Lightning bolt or outlet
+
+## Communication & Process Icons:
+- `weekly-reports.svg` - Calendar with document
+- `site-visits.svg` - Hard hat or construction site
+- `client-portal.svg` - Computer or mobile device
+- `direct-contact.svg` - Phone or message
+
+## Value Icons:
+- `excellence.svg` - Star or trophy
+- `collaboration.svg` - Connected people or handshake
+- `integrity.svg` - Shield or balance scale
+- `innovation.svg` - Light bulb or gear
+
+## Technical Specifications:
+- **Format**: SVG (vector graphics)
+- **Size**: Scalable, optimized for 80x80px base size
+- **Style**: Simple, clean, professional
+- **Colors**: Match brand palette (#1a1a1a, #8B7355, #D4AF37)
+- **Weight**: Consistent line weights and proportions
+
+## Design Guidelines:
+- Minimalist, easily recognizable at small sizes
+- Consistent style across all icons
+- Professional appearance fitting luxury brand
+- Mountain/construction theme where appropriate
+- Readable in both light and dark contexts
+
+*Custom icon design needed - recommend professional graphic designer for brand consistency*

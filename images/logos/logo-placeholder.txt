@@ -1,0 +1,25 @@
+# Logo Assets Directory
+
+This directory should contain:
+
+## Required Logo Files:
+- `deacon-logo.svg` - Main logo for light backgrounds
+- `deacon-logo-white.svg` - White logo for dark backgrounds  
+- `deacon-logo.png` - PNG fallback versions
+- `deacon-logo-white.png` - White PNG fallback
+- `favicon.ico` - Browser favicon
+- `favicon-32x32.png` - High-res favicon
+
+## Logo Specifications:
+- **Primary Logo**: SVG format preferred for scalability
+- **Colors**: Dark charcoal (#1a1a1a) and secondary brown (#8B7355)
+- **Style**: Professional, luxury, mountain-inspired
+- **Usage**: Navigation header, footer, business cards, signage
+
+## Brand Guidelines:
+- Maintain clear space around logo
+- Don't stretch or distort proportions
+- Use white version on dark backgrounds only
+- Ensure minimum size for readability
+
+*Contact: Kevin Cler for brand assets and guidelines*
