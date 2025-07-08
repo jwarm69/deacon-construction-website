@@ -1,0 +1,10 @@
+# Image Assets Directory
+
+This directory will contain:
+- Logo files (deacon-logo.svg, deacon-logo-white.svg)
+- Project portfolio images
+- Team photos
+- Icons and graphics
+- Hero video files
+
+Add your actual image assets here for the website to display properly.

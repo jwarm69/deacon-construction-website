@@ -1,0 +1,4 @@
+# Fonts Directory
+
+Currently using Google Fonts (Montserrat and Playfair Display).
+This directory is reserved for any custom font files if needed.
